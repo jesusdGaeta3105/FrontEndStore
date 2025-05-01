@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEndStore</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+            <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="logotipo">
+                <h2 class="header__logo--gaeta">Gaeta Cars</h2>
+            </a>
+    </header>
+
+    <nav class="navegacion">           
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">nosotros</a>
+    </nav>
+    
+    <main class="contenedor">
+        <h1>Toyota Corolla</h1>
+
+        <div class="auto">
+            <img class="auto__imagen" src="imgsc/corolla3.png" alt="corolla">
+
+            <div class="auto__contenido">
+                <p>in porttitor magna tellus dapibus est.consectetur adipiscing elit. Sed porttitor, luctus urna at felis porta pulvinar. </p>
+
+                <form class="formulario">
+                    <select class="formulario__campo" name="colorr" id="color">
+                        <option class="formulario__option" disabled selected>Elija un color</option>
+                        <option class="formulario__option" value="">azul</option>
+                        <option class="formulario__option" value="">blanco</option>
+                        <option class="formulario__option" value="">negro</option>
+                        <option class="formulario__option" value="">rojo</option>
+                        <option class="formulario__option" value="">gris</option>
+                        <option class="formulario__option" value="">verde</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+                    <input class="formulario_submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2023</p>
+    </footer>
+</body>
+</html> 
